@@ -1,0 +1,22 @@
+{
+  "name": "if-js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Inna-Ka/if-js.git"
+  },
+  "author": "\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[A\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Inna-Ka/if-js/issues"
+  },
+  "homepage": "https://github.com/Inna-Ka/if-js#readme",
+  "keywords": [
+    "index.js"
+  ],
+  "description": ""
+}
