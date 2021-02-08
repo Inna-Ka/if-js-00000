@@ -42,5 +42,55 @@ for (let x=0; x < array_next.length; x++) {
     console.log (array_next[x]);}
     }
 
+function palindrome(str) {
+    return str === str.split ("").reverse("").join("")
+};
+console.log (palindrome("lol"));
 
+function min (a, b) {
+    if (a < b) {
+        return a;
+    }
+    else {
+        return b;
+    }
+}
+console.log (min(8,4));
+
+function min (a, b) {
+    return a < b? a:b;
+}
+console.log (min(2,3));
+
+const funcMax = function (a, y) {
+    if (a > y) {
+        return a;
+    }
+    else {
+        return y;
+    }
+}
+console.log (funcMax(1,6));
+
+const functionMax = function max (a, y) {
+    return a > y? a:y;
+}
+console.log (functionMax(10,4));
+
+let arrayWithZero = [];
+arrayWithZero [0] = 0;
+arrayWithZero [1] = 3;
+arrayWithZero [2] = 15;
+arrayWithZero [3] = 10;
+arrayWithZero [4] = 78;
+arrayWithZero [5] = 60;
+arrayWithZero [6] = 22;
+arrayWithZero [7] = 80;
+arrayWithZero [8] = 90;
+arrayWithZero [9] = 42;
+console.log (arrayWithZero);
+let str = (arrayWithZero.join(","));
+const newstr = str.replace(/0/gi, 'zero');
+console.log (newstr.split(","));
+   
 
