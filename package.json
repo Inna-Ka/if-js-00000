@@ -1,7 +1,7 @@
 {
   "name": "if-js",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint main.js"
@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/Inna-Ka/if-js#readme",
   "keywords": [
-    "index.js"
+    "main.js"
   ],
   "description": "",
   "devDependencies": {
@@ -26,10 +26,7 @@
     "eslint-plugin-import": "^2.22.1",
     "husky": "^4.3.8"
   }, 
-  
-"husky": {
-  
-  "pre-commit": "npm run lint"
- 
+  "husky": {
+    "pre-commit": "npm run lint"
   }
 }
